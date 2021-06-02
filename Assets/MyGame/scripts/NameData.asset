@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0969343f652b654499f2a69402e79b5d, type: 3}
   m_Name: NameData
   m_EditorClassIdentifier: 
-  yourName: What
+  yourName: empty

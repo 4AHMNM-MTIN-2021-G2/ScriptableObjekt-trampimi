@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
+
 
 public class GameManager : MonoBehaviour {
 
@@ -26,9 +26,9 @@ public class GameManager : MonoBehaviour {
     {
         if(tmpName == null)
         {
-            tmpName = GameObject.Find("SavedName").GetComponent<Text>();
-        }
 
+        tmpName = GameObject.Find("SavedName").GetComponent<Text>();
+        }
         tmpName.text = nameData.yourName;
     }
 }
